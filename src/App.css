@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&family=Work+Sans:wght@400;600&display=swap');
+
+
+.workSans {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.rubik {
+    font-family: 'Rubik', sans-serif;
+}
+
+input[type="text"] {
+    background: url(./assets/pin.png) #FFF;
+    background-repeat: no-repeat;
+    background-size: 27px;
+    background-position: 14px;
+}
